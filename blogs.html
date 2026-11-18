@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OCTIS Blogs</title>
+  <meta name="description" content="Practical insights, product guides, industry updates and stories for jewellery businesses.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,560;9..144,600&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/home.css?v=17">
+  <link rel="stylesheet" href="css/resources.css?v=7">
+  <link rel="stylesheet" href="css/whatsapp.css">
+</head>
+<body class="resources">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header header--dark">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="OCTIS home">
+        <svg viewBox="0 0 36 36" aria-hidden="true"><path d="M18 3 L31 14 L18 33 L5 14 Z" fill="none" stroke="#e4c78a" stroke-width="1.6"/><path d="M5 14 H31 M18 3 L11 14 L18 33 L25 14 Z" fill="none" stroke="#e4c78a" stroke-width="1.2"/></svg>
+        <span><strong>OCTIS</strong><span>Jewellery ERP</span></span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <div class="menu">
+          <a href="solutions.html">Solutions</a>
+          <button type="button" aria-expanded="false" aria-label="Open Solutions menu"><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+          <div class="dropdown">
+            <a href="solutions.html#retail">Retail Jewellery</a>
+            <a href="solutions.html#wholesale">Wholesalers</a>
+            <a href="solutions.html#manufacturing">Manufacturing &amp; Workshops</a>
+            <a href="solutions.html#chains">Multi-store &amp; Chains</a>
+            <a href="solution-bullion.html">Bullion</a>
+            <a href="solution-pawnify.html">Pawnify</a>
+          </div>
+        </div>
+        <div class="menu">
+          <a href="features.html">Features</a>
+          <button type="button" aria-expanded="false" aria-label="Open Features menu"><svg class="chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2 4 L6 8 L10 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+          <div class="dropdown">
+            <a href="features.html#billing">Billing &amp; POS</a>
+            <a href="features.html#inventory">Inventory</a>
+            <a href="features.html#rates">Metal Rates</a>
+            <a href="features.html#karigar">Karigar</a>
+            <a href="features.html#reports">Reports &amp; Analytics</a>
+          </div>
+        </div>
+        <a href="free-tools/index.html">Free Tools</a>
+        <a href="blogs.html#blogs" aria-current="page">Blogs</a>
+        <a href="about.html">About</a>
+        <div class="header-actions">
+          <a class="btn btn-ghost" href="login.html">Login</a>
+          <a class="btn btn-gold" href="demo.html">Request a Demo <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8 H13 M9 4 L13 8 L9 12" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="wrap res-hero" id="top">
+      <div>
+        <p class="kicker">BLOGS</p>
+        <h1>Insights, Guides and Updates for Jewellers.</h1>
+      </div>
+      <p class="aside">Product guides, industry notes and updates.</p>
+      <img class="res-ring" src="img/comp-ring.jpg" alt="A gold solitaire ring on dark stone">
+    </section>
+
+    <div class="wrap">
+      <div class="filters" role="tablist" aria-label="Resource types">
+        <button type="button" class="is-on" data-filter="all" role="tab" aria-selected="true"><svg viewBox="0 0 24 24"><path d="M5 5 H11 V11 H5 Z M13 5 H19 V11 H13 Z M5 13 H11 V19 H5 Z M13 13 H19 V19 H13 Z"/></svg>All Resources</button>
+        <button type="button" data-filter="blogs" id="blogs" role="tab" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M6 4 H14 L18 8 V20 H6 Z"/><path d="M8 12 H16 M8 16 H14"/></svg>Blogs</button>
+        <button type="button" data-filter="studies" id="studies" role="tab" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M4 8 H20 V18 H4 Z"/><path d="M8 8 V6 H16 V8"/></svg>Case Studies</button>
+        <button type="button" data-filter="guides" id="guides" role="tab" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M6 4 H16 V20 H6 Z"/><path d="M6 8 H16"/></svg>Guides</button>
+        <button type="button" data-filter="help" id="help" role="tab" aria-selected="false"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M9.5 9.5 a2.5 2.5 0 1 1 3.2 2.4 C12 12.4 12 13 12 13"/><path d="M12 16 H12.1"/></svg>Help Center</button>
+        <button type="button" data-filter="updates" id="updates" role="tab" aria-selected="false"><svg viewBox="0 0 24 24"><path d="M5 16 L9 10 L13 13 L19 6"/><path d="M14 6 H19 V11"/></svg>Updates</button>
+      </div>
+
+      <div class="res-hub">
+        <div>
+          <h2 class="block-title">Featured Article</h2>
+          <article class="feature" data-kind="guides" data-title="HUID, BIS &amp; Compliance: A Simple Guide for Jewellers" data-kicker="Industry Insights" data-body="Hallmarking and HUID sit with the bill, not in a separate book. This guide covers what the counter needs for BIS, HUID, GST, KYC and the cash flag, and where each one shows up in OCTIS.">
+            <img src="img/neck-after.jpg" alt="A gold necklace on emerald velvet">
+            <div>
+              <span class="tag">Industry Insights</span>
+              <h3>HUID, BIS &amp; Compliance: A Simple Guide for Jewellers</h3>
+              <p>What the counter needs for BIS, HUID, GST, KYC and the cash flag.</p>
+              <button class="read" type="button">Read Article →</button>
+            </div>
+          </article>
+          <p class="empty" hidden role="status"></p>
+          <article class="reader" hidden>
+            <div class="reader-top">
+              <p class="kicker" id="reader-kicker"></p>
+              <button class="reader-close" type="button" id="reader-close">Close</button>
+            </div>
+            <h2 id="reader-title" tabindex="-1"></h2>
+            <p class="reader-limit">A short note on this page. It is not a separate article.</p>
+            <p id="reader-body"></p>
+          </article>
+        </div>
+        <aside>
+          <div class="side-head">
+            <h2 class="block-title">Latest Resources</h2>
+            <a href="#top">View All →</a>
+          </div>
+          <div class="latest">
+            <button class="piece" type="button" data-kind="updates" data-kicker="Market Update" data-title="Gold Rate Trends: What They Mean for Your Business" data-body="A rate move changes the tag and the bill on the same day. This note is about reading the daily gold rate before the counter opens, not about predicting the next move.">
+              <img src="img/gold-trend.jpg" alt="Gold bars with a rising chart">
+              <span><span class="tag">Market Update</span><strong>Gold Rate Trends: What They Mean for Your Business</strong><span class="meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3 V7 M16 3 V7 M4 10 H20"/></svg>Nov 12, 2026<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8 V12 L15 14"/></svg>5 min read</span></span>
+            </button>
+            <button class="piece" type="button" data-kind="guides" data-kicker="Product Guide" data-title="Getting Started with OCTIS: A Step-by-Step Guide" data-body="Start with the counter, then the stock list, then the metal rate. This guide is the order to set those three up so the first bill matches the drawer.">
+              <img src="img/guide-laptop.jpg" alt="A laptop open on a desk">
+              <span><span class="tag">Product Guide</span><strong>Getting Started with OCTIS: A Step-by-Step Guide</strong><span class="meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3 V7 M16 3 V7 M4 10 H20"/></svg>Nov 08, 2026<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8 V12 L15 14"/></svg>7 min read</span></span>
+            </button>
+            <button class="piece" type="button" data-kind="blogs" data-kicker="Business Tips" data-title="5 Ways to Improve Showroom Efficiency" data-body="Five floor habits: one bill for the sale, a stock count that matches the tag, the rate set before the day starts, a clear old-gold step, and a close that matches the drawer.">
+              <img src="img/showroom.jpg" alt="A jewellery showroom at night">
+              <span><span class="tag">Business Tips</span><strong>5 Ways to Improve Showroom Efficiency</strong><span class="meta"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3 V7 M16 3 V7 M4 10 H20"/></svg>Nov 05, 2026<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8 V12 L15 14"/></svg>4 min read</span></span>
+            </button>
+          </div>
+        </aside>
+      </div>
+
+      <div class="lanes">
+        <button class="lane" type="button" data-jump="studies">
+          <i><svg viewBox="0 0 24 24"><path d="M12 3 L21 8 L12 13 L3 8 Z"/><path d="M3 12 L12 17 L21 12"/><path d="M3 16 L12 21 L21 16"/></svg></i>
+          <span><h3>Case Studies</h3><p>No case studies are published on this page yet.</p></span>
+          <span class="go" aria-hidden="true">→</span>
+        </button>
+        <button class="lane is-dark" type="button" data-jump="guides">
+          <i><svg viewBox="0 0 24 24"><path d="M3 5 H11 V19 H3 Z"/><path d="M13 5 H21 V19 H13 Z"/><path d="M12 5 V19"/></svg></i>
+          <span><h3>Guides &amp; eBooks</h3><p>Setup and compliance notes.</p></span>
+          <span class="go" aria-hidden="true">→</span>
+        </button>
+        <button class="lane" type="button" data-jump="help">
+          <i><svg viewBox="0 0 24 24"><path d="M4 13 a8 8 0 0 1 16 0"/><path d="M4 13 V17 H8 V12 H5"/><path d="M20 13 V17 H16 V12 H19"/><path d="M12 17 V19 H16"/></svg></i>
+          <span><h3>Help Center</h3><p>No help articles are published on this page yet.</p></span>
+          <span class="go" aria-hidden="true">→</span>
+        </button>
+      </div>
+
+      <div class="stay-wrap" id="subscribe">
+        <form class="stay" id="subscribe-form">
+          <h2>Stay Updated.</h2>
+          <p>Subscribe opens an email draft to hello@octis.in. It does not add you to a mailing list.</p>
+          <div>
+            <label class="mail">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7 L12 13 L20 7"/></svg>
+              <input type="email" name="email" required placeholder="Enter your email" aria-label="Email address">
+              <button class="btn btn-gold" type="submit">Subscribe <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 8 H13 M9 4 L13 8 L9 12" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></button>
+            </label>
+            <p class="note is-error" hidden id="subscribe-error" role="alert"></p>
+            <p class="note" hidden id="subscribe-note" role="status"></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <svg class="waves" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M0 40 C 180 8 320 70 520 36 C 760 4 900 68 1120 32 C 1280 10 1360 42 1440 24" fill="none" stroke="#c6a15a" stroke-width="1.2" opacity="0.75"/>
+      <path d="M0 58 C 200 28 400 76 640 46 C 900 16 1100 70 1440 42" fill="none" stroke="#e4c78a" stroke-width="1" opacity="0.45"/>
+    </svg>
+    <div class="wrap footer-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html">
+          <svg viewBox="0 0 36 36" aria-hidden="true"><path d="M18 3 L31 14 L18 33 L5 14 Z" fill="none" stroke="#e4c78a" stroke-width="1.6"/><path d="M5 14 H31" fill="none" stroke="#e4c78a" stroke-width="1.2"/></svg>
+          <span><strong>OCTIS</strong><span>Jewellery ERP</span></span>
+        </a>
+        <p>A complete business platform for the jewellery industry.</p>
+      </div>
+      <div>
+        <h2>SOLUTIONS</h2>
+        <ul>
+          <li><a href="solutions.html#retail">Retail Jewellery</a></li>
+          <li><a href="solutions.html#wholesale">Wholesale</a></li>
+          <li><a href="solutions.html#manufacturing">Manufacturing</a></li>
+          <li><a href="solutions.html#chains">Multi-store &amp; Chains</a></li>
+          <li><a href="solution-bullion.html">Bullion</a></li>
+          <li><a href="solution-pawnify.html">Pawnify</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>FEATURES</h2>
+        <ul>
+          <li><a href="features.html#billing">Billing &amp; POS</a></li>
+          <li><a href="features.html#inventory">Inventory</a></li>
+          <li><a href="features.html#karigar">Karigar Management</a></li>
+          <li><a href="features.html#reports">Reports &amp; Analytics</a></li>
+          <li><a href="ai-studio.html">AI Studio</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>MORE</h2>
+        <ul>
+          <li><a href="free-tools/index.html">Free Tools</a></li>
+          <li><a href="#blogs">Blogs</a></li>
+          <li><a href="demo.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul class="contact-list">
+          <li><svg viewBox="0 0 24 24"><path d="M6 4 H10 L12 8 L9 10 C10 13 12 15 15 16 L17 13 L21 15 V19 C21 20 20 21 19 21 C10 21 4 14 4 6 C4 5 5 4 6 4 Z"/></svg><a href="tel:+919905888001">+91 99058 88001</a></li>
+          <li><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7 L12 13 L20 7"/></svg><a href="mailto:hello@octis.in">hello@octis.in</a></li>
+          <li><svg viewBox="0 0 24 24"><path d="M12 21 C12 21 5 14 5 9 A7 7 0 0 1 19 9 C19 14 12 21 12 21 Z"/><circle cx="12" cy="9" r="2"/></svg>Hyderabad, Telangana</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="js/home.js?v=9"></script>
+  <script>
+    const filters = document.querySelectorAll("[data-filter]");
+    const pieces = document.querySelectorAll("[data-kind]");
+    const empty = document.querySelector(".empty");
+    const reader = document.querySelector(".reader");
+    const readerTitle = document.getElementById("reader-title");
+    const categories = ["blogs", "studies", "guides", "help", "updates"];
+    let openSource = null;
+
+    function categoryFromHash() {
+      const name = location.hash.replace("#", "");
+      if (categories.includes(name)) return name;
+      if (name === "" || name === "top") return "all";
+      return null;
+    }
+
+    function closeReader() {
+      reader.hidden = true;
+      openSource = null;
+    }
+
+    function apply(kind) {
+      filters.forEach((button) => {
+        const on = button.dataset.filter === kind;
+        button.classList.toggle("is-on", on);
+        button.setAttribute("aria-selected", String(on));
+      });
+      let shown = 0;
+      pieces.forEach((piece) => {
+        const ok = kind === "all" || piece.dataset.kind === kind;
+        piece.hidden = !ok;
+        if (ok) shown += 1;
+      });
+      if (openSource && openSource.hidden) closeReader();
+      empty.hidden = shown > 0;
+      empty.textContent = kind === "help"
+        ? "No help articles are published on this page yet."
+        : kind === "studies"
+        ? "No case studies are published on this page yet."
+        : "Nothing in this set yet. Choose All Resources to see every piece.";
+    }
+
+    function writeHash(kind) {
+      const next = kind === "all" ? "#top" : "#" + kind;
+      if (location.hash === next) return;
+      history.pushState(null, "", next);
+    }
+
+    function syncFromUrl() {
+      const kind = categoryFromHash();
+      if (kind) apply(kind);
+    }
+
+    filters.forEach((button) => {
+      button.addEventListener("click", () => {
+        apply(button.dataset.filter);
+        writeHash(button.dataset.filter);
+      });
+    });
+
+    document.querySelectorAll("[data-jump]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const kind = button.dataset.jump;
+        apply(kind);
+        writeHash(kind);
+        document.querySelector(".filters").scrollIntoView({ behavior: "smooth", block: "center" });
+      });
+    });
+
+    function openPiece(source, trigger) {
+      document.getElementById("reader-kicker").textContent = source.dataset.kicker;
+      readerTitle.textContent = source.dataset.title;
+      document.getElementById("reader-body").textContent = source.dataset.body;
+      openSource = source;
+      reader.hidden = false;
+      readerTitle.focus({ preventScroll: true });
+      reader.scrollIntoView({ behavior: "smooth", block: "center" });
+      reader.returnFocus = trigger || null;
+    }
+
+    document.querySelectorAll(".read, .piece").forEach((button) => {
+      button.addEventListener("click", () => openPiece(button.closest("[data-title]"), button));
+    });
+
+    document.getElementById("reader-close").addEventListener("click", () => {
+      const back = reader.returnFocus;
+      closeReader();
+      if (back) back.focus();
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "Escape" && !reader.hidden) {
+        const back = reader.returnFocus;
+        closeReader();
+        if (back) back.focus();
+      }
+    });
+
+    window.addEventListener("hashchange", syncFromUrl);
+    window.addEventListener("popstate", syncFromUrl);
+    syncFromUrl();
+  </script>
+  <script src="js/enquiry.js"></script>
+  <script src="js/whatsapp.js" defer></script>
+</body>
+</html>

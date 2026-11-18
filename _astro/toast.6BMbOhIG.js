@@ -1,0 +1,2 @@
+/*! CaratOS™ · © 2026 Izara Gems Pvt. Ltd. All rights reserved. Proprietary; see LICENSE. ref 9245c325 */
+var e;function t(t){let n=document.querySelector(`[data-notice]`),r=document.querySelector(`[data-notice-live]`);n&&(n.textContent=t,n.hidden=!1,r&&(r.textContent=t),clearTimeout(e),e=setTimeout(()=>{n.hidden=!0,r&&(r.textContent=``)},3200))}export{t};

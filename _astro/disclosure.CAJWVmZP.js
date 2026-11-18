@@ -1,0 +1,2 @@
+/*! CaratOS™ · © 2026 Izara Gems Pvt. Ltd. All rights reserved. Proprietary; see LICENSE. ref 9245c325 */
+for(let e of document.querySelectorAll(`[data-disclosure]`))e.addEventListener(`click`,t=>{let n=t.target.closest(`button[aria-controls]`);if(!n||!e.contains(n))return;let r=document.getElementById(n.getAttribute(`aria-controls`)||``);if(!r)return;let i=r.hidden!==!1;r.hidden=!i,n.setAttribute(`aria-expanded`,String(i)),n.closest(`.fq`)?.classList.toggle(`open`,i)});

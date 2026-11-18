@@ -1,0 +1,6 @@
+/* Keep the OCTIS header and footer, and leave the Rate Desk layout alone. */
+body.rate-desk #main {
+  display: block;
+  gap: 0;
+  margin-bottom: 0;
+}
